@@ -45,6 +45,7 @@
     "test": "mocha",
     "test-speaker": "node test/manual-testing/AudioContext-sound-output.js",
     "pretest-speaker": "npm install speaker",
-    "prepublish": "gulp"
+    "prepublish": "gulp",
+    "preinstall": "npm install speaker --mpg123-backend=openal"
   }
 }
