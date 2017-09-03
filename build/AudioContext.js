@@ -56,12 +56,12 @@ var AudioContext = function (_events$EventEmitter) {
     });
 
     _this.currentTime = 0;
-    _this.sampleRate = 44100;
-    _this.numberOfChannels = 2;
+    _this.sampleRate = 48000;
+    _this.numberOfChannels = 8;
     _this.bitDepth = 16;
 
     _this.format = {
-      numberOfChannels: 2,
+      numberOfChannels: 8,
       bitDepth: 16,
       sampleRate: _this.sampleRate
     };
